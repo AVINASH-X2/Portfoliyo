@@ -11,7 +11,7 @@
     height: 4.8rem;
     padding-bottom: 33px;
     border-bottom: 5px solid rebeccapurple;
-    background-image: url(/images/pexels-kanhaiya-sharma-13062586.jpg);
+    background-image: url(pexels-kanhaiya-sharma-13062586.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -44,7 +44,7 @@
 
 #home-page {
     height: 32rem;
-    background-image: url(/images/pexels-rostislav-uzunov-5011647.jpg);
+    background-image: url(pexels-rostislav-uzunov-5011647.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -100,7 +100,7 @@
     /* display: flex; */
     /* flex-direction: column; */
     height: 55rem;
-    background-image: url(/images/pexels-mo-eid-8657160.jpg);
+    background-image: url(pexels-mo-eid-8657160.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -176,7 +176,7 @@
 }
 
 .work-div-box1 {
-    background-image: url(/images/Screenshot\ \(313\).png);
+    background-image: url(Screenshot\ \(313\).png);
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -189,7 +189,7 @@
 }
 
 .work-div-box2 {
-    background-image: url(/images/hotel-595121_1920\ -\ Copy.jpg);
+    background-image: url(hotel-595121_1920\ -\ Copy.jpg);
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -202,7 +202,7 @@
 }
 
 .work-div-box3 {
-    background-image: url(/images/Screenshot2.png);
+    background-image: url(Screenshot2.png);
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -215,7 +215,7 @@
 }
 
 .work-div-box4 {
-    background-image: url(/images/bulk.jpg);
+    background-image: url(bulk.jpg);
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -228,7 +228,7 @@
 }
 
 .work-div-box5 {
-    background-image: url(/images/Screenshot\ \(316\).png);
+    background-image: url(Screenshot\ \(316\).png);
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -241,7 +241,7 @@
 }
 
 .work-div-box6 {
-    background-image: url(/images/Screenshot\ \(317\).png);
+    background-image: url(Screenshot\ \(317\).png);
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -254,7 +254,7 @@
 }
 
 .work-div-box7 {
-    background-image: url(/images/cat.jpg);
+    background-image: url(cat.jpg);
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -269,7 +269,7 @@
 
 #contact {
     height: 32rem;
-    background-image: url(/images/client.jpg);
+    background-image: url(client.jpg);
     background-position: 50%;
     background-size: cover;
 }
