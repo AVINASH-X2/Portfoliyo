@@ -1,0 +1,597 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+}
+
+#navbar {
+    height: 4.8rem;
+    padding-bottom: 33px;
+    border-bottom: 5px solid rebeccapurple;
+    background-image: url(/images/pexels-kanhaiya-sharma-13062586.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#unorderedlist {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+
+#unorderedlist #item {
+    list-style: none;
+    padding: 25px;
+
+}
+
+#unorderedlist #item a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#unorderedlist #item a:hover {
+    border-bottom: 4px solid #ffffff;
+    transition: 0.6s ease;
+}
+
+#home-page {
+    height: 32rem;
+    background-image: url(/images/pexels-rostislav-uzunov-5011647.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#home-page-heading-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 4rem; */
+}
+
+#home-page-heading-div h1 {
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#home-page-heading-div h1:hover {
+    transform: translateY(15px);
+    transition: 0.6s ease;
+}
+
+#home-page-paragraph-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 11rem;
+}
+
+#home-page-paragraph {
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 6rem;
+    width: 60%;
+}
+
+#home-page-paragraph:hover {
+    transform: translateY(-15px);
+    transition: 0.6s ease;
+}
+
+#home-page-paragraph-div p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#works {
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 55rem;
+    background-image: url(/images/pexels-mo-eid-8657160.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#work-heading {
+    display: flex;
+    justify-content: center;
+}
+
+#work-heading h1 {
+    color: #ffffff;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+#work-heading h1:hover {
+    transform: translateY(15px);
+    transition: 0.6s ease;
+}
+
+#work-divs {
+    display: flex;
+    padding: 10px;
+    margin-top: 3rem;
+}
+
+#work-divs2 {
+    display: flex;
+    padding: 10px;
+    margin-top: 4rem;
+}
+
+#work-div-items {
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    width: 25%;
+    margin: 20px;
+    padding: 50px;
+}
+
+#work-div-items h2 a {
+    color: #fff;
+    font-size: 35px;
+    text-decoration: none;
+    /* border-bottom: 4px solid #ffffff; */
+}
+#work-div-items h2 a:hover{
+    border-bottom: 4px solid skyblue;
+    transition: 0.6s ease;
+    color: skyblue;
+}
+
+#work-div-items-row2 {
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    width: 25%;
+    margin: 20px;
+    padding: 50px;
+}
+
+#work-div-items-row2 h2 a {
+    color: #fff;
+    font-size: 35px;
+    text-decoration: none;
+    /* border-bottom: 4px solid #ffffff; */
+}
+#work-div-items-row2 h2 a:hover{
+    border-bottom: 4px solid skyblue;
+    transition: 0.6s ease;
+    color: skyblue;
+}
+
+.work-div-box1 {
+    background-image: url(/images/Screenshot\ \(313\).png);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.work-div-box1:hover {
+    transform: translateY(-15px);
+    transition: 0.6s ease;
+}
+
+.work-div-box2 {
+    background-image: url(/images/hotel-595121_1920\ -\ Copy.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.work-div-box2:hover {
+    transform: translateY(-15px);
+    transition: 0.6s ease;
+}
+
+.work-div-box3 {
+    background-image: url(/images/Screenshot2.png);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.work-div-box3:hover {
+    transform: translateY(-15px);
+    transition: 0.6s ease;
+}
+
+.work-div-box4 {
+    background-image: url(/images/bulk.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.work-div-box4:hover {
+    transform: translateY(-15px);
+    transition: 0.6s ease;
+}
+
+.work-div-box5 {
+    background-image: url(/images/Screenshot\ \(316\).png);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.work-div-box5:hover {
+    transform: translateY(-15px);
+    transition: 0.6s ease;
+}
+
+.work-div-box6 {
+    background-image: url(/images/Screenshot\ \(317\).png);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.work-div-box6:hover {
+    transform: translateY(-15px);
+    transition: 0.6s ease;
+}
+
+.work-div-box7 {
+    background-image: url(/images/cat.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.work-div-box7:hover {
+    transform: translateY(-15px);
+    transition: 0.6s ease;
+}
+
+
+#contact {
+    height: 32rem;
+    background-image: url(/images/client.jpg);
+    background-position: 50%;
+    background-size: cover;
+}
+
+#contact-heading {
+    display: flex;
+    justify-content: center;
+
+}
+
+#contact-heading h1 {
+    margin-top: 2.6rem;
+    color: #ffffff;
+}
+
+#contact-heading h1:hover {
+    transform: translateY(15px);
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+#contact #phone {
+    display: flex;
+    width: 20%;
+    margin: 50px;
+    height: 2rem;
+}
+
+#phone:hover,
+#gmail:hover,
+#linkedin:hover,
+#github:hover,
+#netlify:hover {
+    transform: translateX(15px);
+    transition: 0.6s ease;
+}
+
+#contact #phone h2 {
+    color: #ffffff;
+    padding-left: 45px;
+    cursor: pointer;
+}
+
+#contact #gmail {
+    display: flex;
+    width: 20%;
+    margin: 45px;
+    height: 1.5rem;
+}
+
+#contact #gmail h2 {
+    color: #ffffff;
+    padding-left: 38px;
+    cursor: pointer;
+}
+
+#contact #linkedin,
+#github,
+#netlify {
+    display: flex;
+    width: 20%;
+    margin: 50px;
+    height: 1.5rem;
+}
+
+#contact #linkedin h2 a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 45px;
+}
+
+#contact #github h2 a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 45px;
+}
+
+#contact #netlify h2 a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 45px;
+}
+
+
+#footer-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 5rem;
+}
+
+#footer-div footer h1 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#footer-div footer h1:hover {
+    transform: translateY(-15px);
+    transition: 0.6s ease;
+}
+
+@media only screen and (max-width:300px) {
+    #container {
+        width: 200%;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:450px) {
+    #container {
+        width: 100%;
+    }
+
+    #unorderedlist {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    #home-page #home-page-heading-div h1 {
+        margin-top: 4rem;
+    }
+
+    #unorderedlist #item {
+        font-size: 8px;
+    }
+
+    #works {
+        height: 145rem;
+    }
+
+    #work-divs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #work-divs #work-div-items {
+        margin-left: 5rem;
+    }
+
+    #work-divs2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -1.4rem;
+    }
+
+    #work-divs2 #work-div-items-row2 {
+        margin-left: 5rem;
+    }
+
+    #contact #linkedin {
+        width: 55%;
+    }
+}
+
+@media only screen and (min-width:450px) and (max-width:600px) {
+    #container {
+        width: 100%;
+    }
+
+    #unorderedlist {
+        width: 100%;
+        font-size: 14px;
+        margin-top: 0px;
+    }
+
+    #home-page #home-page-heading-div h1 {
+        margin-top: 4rem;
+    }
+
+    #works {
+        height: 145rem;
+    }
+
+    #work-divs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #work-divs2 {
+        margin-top: -0.8rem;
+    }
+
+    #work-divs #work-div-items {
+        margin-left: 7rem;
+    }
+
+    #work-divs2 #work-div-items-row2 {
+        margin-left: 7rem;
+    }
+
+    #work-divs2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact #linkedin {
+        width: 55%;
+    }
+
+    #contact #github,
+    #netlify {
+        width: 55%;
+    }
+
+}
+
+@media only screen and (min-width:600px) and (max-width:800px) {
+    #container {
+        width: 100%;
+    }
+
+    #unorderedlist {
+        margin-top: 0px;
+    }
+
+    #unorderedlist li {
+        font-size: 20px;
+    }
+
+    #home-page #home-page-heading-div h1 {
+        margin-top: 4rem;
+    }
+
+    #works {
+        height: 145rem;
+    }
+
+    #work-divs,
+    #work-divs2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #work-divs #work-div-items {
+        /* display: flex; */
+        /* flex-direction: column; */
+        width: 60%;
+        margin-left: 6rem;
+    }
+
+    #work-divs2 {
+        margin-top: -0.8rem;
+    }
+
+    #work-divs2 #work-div-items-row2 {
+        /* display: flex; */
+        width: 60%;
+        margin-left: 6rem;
+    }
+
+    #contact #linkedin,
+    #github,
+    #netlify {
+        width: 55%;
+    }
+}
+
+@media only screen and (min-width:800px) and (max-width:1100px) {
+    #container {
+        width: 100%;
+    }
+
+    #unorderedlist {
+        margin-top: 0px;
+    }
+
+    #unorderedlist li {
+        font-size: 25px;
+    }
+
+    #home-page #home-page-heading-div h1 {
+        margin-top: 4rem;
+    }
+
+    #works {
+        height: 145rem;
+    }
+
+    #work-divs,
+    #work-divs2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #work-divs #work-div-items {
+        width: 60%;
+        margin-left: 10rem;
+    }
+
+    #work-divs2 {
+        margin-top: -0.8rem;
+    }
+
+    #work-divs2 #work-div-items-row2 {
+        width: 60%;
+        margin-left: 10rem;
+    }
+
+    #contact #linkedin,
+    #github,
+    #netlify {
+        width: 55%;
+    }
+
+}
+
+@media only screen and (min-width:1100px) {
+    #container {
+        width: 100%;
+    }
+
+    #unorderedlist {
+        margin-top: 0px;
+    }
+
+    #home-page #home-page-heading-div h1 {
+        margin-top: 4rem;
+    }
+
+    #contact #linkedin {
+        width: 55%;
+    }
+}
